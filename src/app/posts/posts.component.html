@@ -1,0 +1,18 @@
+<table class="table table-success" mt-5>
+  <thead>
+<tr>
+  <td class="table-active">UserId</td>
+  <td class="table-primary">Id</td>
+  <td class="table-secondary">Title</td>
+  <td class="table-success">Body</td>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let post of posts">
+  <td class="table-active">{{post.userId}}</td>
+  <td class="table-primary">{{post.id}}</td>
+  <td class="table-secondary">{{post.title}}</td>
+  <td class="table-success">{{post.body}}</td>
+</tr>
+</tbody>
+</table>
